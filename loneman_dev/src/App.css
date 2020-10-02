@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252A;
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  padding: 30px 12%;
+}
+
+.logo {
+  margin-right: auto;
+  object-fit: contain;
+  height:60px;
+  border-radius: 50%;
+}
+
+.nav__links {
+list-style: none; 
+margin: 0; 
+padding: 0;
+}
+.nav__links li {
+  display:inline-block;
+  padding: 0 20px;
+}
+.nav__links a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links a:hover {
+  color: #2444fd;
+  
+}
+button {
+  margin-left: 20px;
+  padding:9px 25px;
+  background-color: rgb(0, 102, 255);
+  color:white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 102, 255, 0.8);
+}
+
+.header {
+  width: 100%;
+  padding: 5% 0px;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  font-size: 1.3rem;
+}
+.darkSection {
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  padding: 2% 0px;
+  
+}
+.darkSection a {
+  align-self: flex-end;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  
+  header {
+    display:flex;
+    flex-direction: column;
+    max-width: 1200px; 
+    margin: 16px auto; 
+    padding: 0px 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .header {
+    font-size: 1rem;
   }
-}
+  .logo {
+    margin:auto;
+    object-fit: contain;
+    height:60px;
+    border-radius: 50%;
+  }
+  .nav__links {
+    margin: 10px 0px;
+    flex-basis: 100%;
+  }
+  .nav__links li {
+    flex-basis: 100%;
+  }
+  button {
+  margin: 0px;
+  padding: 12px 40px;
+  }
+
+  }
+  
+
