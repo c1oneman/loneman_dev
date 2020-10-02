@@ -24,6 +24,19 @@ const portfolioData = [
       'Rest API'
     ],
     img:"/images/sailboard.jpg",
+  },
+  {
+    name: "Weather Against Humans",
+    url:'#',
+    id: 2,
+    description: "iOS Weather App",
+    technologies: [
+      'Swift',
+      'UIKit',
+      'Firebase',
+      'Rest API'
+    ],
+    img:"/images/weather.png",
   }
 ];
 

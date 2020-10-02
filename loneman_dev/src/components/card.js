@@ -72,7 +72,7 @@ const Character = (props) => {
             </div>
             <div className = 'right'>
             <h1>{project.name}</h1>
-            <h2>Description</h2>
+            <h2>What is it?</h2>
             <p>{project.description}</p>
             <h2>Technologies Used</h2>
             <div className = 'techSection'>

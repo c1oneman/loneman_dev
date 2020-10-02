@@ -9,6 +9,7 @@ max-width: 1600px;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+margin-bottom:1%;
 `
 
 function Portfolio() {
@@ -26,9 +27,9 @@ function Portfolio() {
       ))
      }
     </ContentView>
-
-    <a rel="noopener noreferrer" target = '_blank' href = 'https://github.com/c1oneman'>Github</a>
-    
+    <ContentView>
+    <a className = 'button' href = 'https://github.com/c1oneman' target = '_blank' rel="noopener noreferrer">View Github</a>
+    </ContentView>
      
     </div>
   );

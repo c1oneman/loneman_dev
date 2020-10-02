@@ -13,7 +13,7 @@ function Nav() {
           <li><a href='http://loneman.dev/skillset'>Skillset</a></li>
         </ul>
       </nav>
-      <button className="cta" href ="#">Reach Out</button>
+      <a className = 'button cta' href = 'https://github.com/c1oneman' target = '_blank' rel="noopener noreferrer">Reach Out</a>
     </header>
 
   );
