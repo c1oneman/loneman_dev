@@ -27,6 +27,7 @@ const CardContainer = styled.div`
     .techSection {
         display:flex;
         flex-wrap: wrap;
+        margin-bottom: 3px;
     }
     .techSection p {
         margin: 2px;
@@ -37,6 +38,17 @@ const CardContainer = styled.div`
         color: white;
         border-radius: 50px;
         font-size: 16px;
+        transition: all 0.3s ease 0s;
+    }
+    .techBubble:hover {
+        background-color: black;
+        
+    }
+    .nohand:hover {
+    cursor: default;
+    }
+    .nohand .hand:hover {
+    cursor: text;
     }
     p {
         padding-bottom: 5px;
@@ -49,6 +61,7 @@ const CardContainer = styled.div`
     white-space: nowrap;
     }
     h1 {
+        margin: 3px  0px;
         font-size:1.5rem;
     }
     h2 {
@@ -70,14 +83,14 @@ const Character = (props) => {
             <div className = 'left'>
             <img className = 'cover' src={project.img} alt = {project.name}/>
             </div>
-            <div className = 'right'>
-            <h1>{project.name}</h1>
+            <div className = 'nohand right'>
+            <h1 className = 'hand'>{project.name}</h1>
             <h2>What is it?</h2>
             <p>{project.description}</p>
             <h2>Technologies Used</h2>
             <div className = 'techSection'>
             {project.technologies.map((tech, index) => (
-                <p className='techBubble' key={`tech-${index}`}>{tech}</p>
+                <p className='nohand techBubble' key={`tech-${index}`}>{tech}</p>
             ))}
             </div>
             
