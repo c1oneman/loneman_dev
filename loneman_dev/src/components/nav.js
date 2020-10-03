@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
 
-
 function Nav() {
 
   return (
     <header>
+    
       <img className='logo' src='/images/profile.png' alt='Clayton Loneman' />
       <nav>
         <ul className='nav__links'>

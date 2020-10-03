@@ -28,7 +28,7 @@ function Portfolio() {
      }
     </ContentView>
     <ContentView>
-    <a className = 'button' href = 'https://github.com/c1oneman' target = '_blank' rel="noopener noreferrer">View Github</a>
+    <a className = 'button' href = 'https://github.com/c1oneman' target = '_blank' rel="noopener noreferrer">View <span className='bold'>GitHub</span></a>
     </ContentView>
      
     </div>

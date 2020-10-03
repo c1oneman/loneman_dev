@@ -56,7 +56,9 @@ padding: 0;
 .button:hover {
   background-color: rgba(0, 102, 255, 0.8);
 }
-
+.bold {
+  font-weight: 700;
+}
 .header {
   width: 100%;
   padding: 5% 0px;
@@ -64,6 +66,7 @@ padding: 0;
   justify-content: center;
   text-align: center;
   font-size: 1.3rem;
+  background-color: white;
 }
 .darkSection {
   display: flex;
