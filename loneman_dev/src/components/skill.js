@@ -1,5 +1,4 @@
 import React from "react"
-import { HoverMode } from "react-particles-js";
 import styled from 'styled-components';
 const SkillDiv = styled.div`
     display:flex;

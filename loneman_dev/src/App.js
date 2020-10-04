@@ -12,6 +12,7 @@ function App() {
         <Header/>
         <Portfolio/>
         <Skills/>
+        <h1>Netlify Tw1</h1>
     </div>
   );
 }

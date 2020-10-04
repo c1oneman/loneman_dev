@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Particles from 'react-particles-js';
 
 
 function Header() {
