@@ -14,7 +14,7 @@ function Footer() {
              <a href = 'https://www.github.com/c1oneman' target = '_blank' rel="noopener noreferrer"><i class="fab fa-github fa-1x"/></a>
              
             </div>
-            <a href = 'https://netlify.com' target='_blank' rel='noopenter noreferrer'>
+            <a href = 'https://netlify.com' target='_blank' rel="noopener noreferrer">
             <div className='netlify shadow-4'>
                 <img className='netlifyLogo' src='/images/full-logo-light.png' alt='Deployed with Netlify' />
             </div>
