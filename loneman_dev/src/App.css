@@ -31,10 +31,13 @@ header {
   flex-flow: column nowrap;
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
-  padding:50px;
-
   width: 100%;
-  height: 2.5rem; 
+}
+.footer p:hover {
+  color:orange;
+}
+.footer p {
+  padding-bottom: 12px;
 }
 .heart{color:#e25555;}
 .netlify {
@@ -43,11 +46,23 @@ header {
   padding:12px;
   margin-bottom: 12px;
 }
+.nohand:hover {
+  cursor: default;
+}
 .netlifyLogo {
   display: flex;
   justify-content: center;
 
   height:25px;
+}
+
+.socials i {
+  padding:20px;
+  color:gray;
+}
+.socials i:hover {
+  padding:20px;
+  color:orange;
 }
 .logo {
   margin-right: auto;

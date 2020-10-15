@@ -8,10 +8,16 @@ function Footer() {
     return (
 
         <div className='footer'>
+            <div className='socials'>
+             <a href = 'https://twitter.com/c1oneman' target = '_blank' rel="noopener noreferrer"><i className={`fab fa-twitter fa-1x`}/></a>
+             <a href = 'https://www.linkedin.com/in/clayton-loneman-7788771b7/' target = '_blank' rel="noopener noreferrer"><i className="fab fa-linkedin fa-1x"/></a>
+             <a href = 'https://www.github.com/c1oneman' target = '_blank' rel="noopener noreferrer"><i class="fab fa-github fa-1x"/></a>
+             
+            </div>
             <div className='netlify'>
                 <img className='netlifyLogo' src='/images/full-logo-light.png' alt='Deployed with Netlify' />
             </div>
-            <p>Made with <span class="heart">❤</span> in Nebraska</p>
+            <p className='nohand'>Made with <span class="heart">❤</span> in Nebraska</p>
         </div>
     );
 }

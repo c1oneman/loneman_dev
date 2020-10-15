@@ -14,19 +14,14 @@ function App() {
       <Nav />
       <Switch>
         <Route path='/contact'>
-
         </Route>
         <Route path='/projects'>
-
           <Portfolio />
-
         </Route>
         <Route path='/skillset'>
-
           <Skills />
         </Route>
         <Route path='/'>
-
           <Header />
           <Portfolio />
           <Skills />

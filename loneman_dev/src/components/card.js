@@ -42,13 +42,6 @@ const CardContainer = styled.div`
     }
     .techBubble:hover {
         background-color: black;
-        
-    }
-    .nohand:hover {
-    cursor: default;
-    }
-    .nohand .hand:hover {
-    cursor: text;
     }
     p {
         padding-bottom: 5px;
