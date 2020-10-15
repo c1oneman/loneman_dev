@@ -72,7 +72,7 @@ const Character = (props) => {
     const project = props.project
     return(
         
-        <CardContainer>
+        <CardContainer className = 'shadow-4'>
             <div className = 'left'>
             <img className = 'cover' src={project.img} alt = {project.name}/>
             </div>
