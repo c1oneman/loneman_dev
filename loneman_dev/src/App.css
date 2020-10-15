@@ -38,7 +38,7 @@ header {
   -webkit-box-align: center;
   align-items: center;
   flex-flow: column nowrap;
-  background: rgb(32, 35, 41);
+  background: rgb(20, 20, 20);
   color: rgb(158, 158, 158);
   width: 100%;
 }
