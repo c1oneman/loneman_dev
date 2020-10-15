@@ -3,33 +3,38 @@ import './App.css';
 import Nav from './components/nav'
 import Header from './components/header'
 import Portfolio from './components/portfolio'
+import Footer from './components/footer'
 import Skills from './components/skills'
 import { Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
     <div className='App'>
+      <div className = 'content-wrap'>
+      <Nav />
       <Switch>
         <Route path='/contact'>
-          <Nav />
+
         </Route>
         <Route path='/projects'>
-          <Nav />
+
           <Portfolio />
 
         </Route>
         <Route path='/skillset'>
-          <Nav />
+
           <Skills />
         </Route>
         <Route path='/'>
-          <Nav />
+
           <Header />
           <Portfolio />
           <Skills />
         </Route>
       </Switch>
+      </div>
 
+    <Footer/>
     </div>
   );
 }

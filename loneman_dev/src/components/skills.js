@@ -9,7 +9,7 @@ const SkillContainer = styled.div`
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:1%;
+    margin-bottom:2%;
     margin-top: 15px;
     max-width:1600px;
 
