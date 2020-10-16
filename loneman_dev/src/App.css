@@ -30,49 +30,10 @@ header {
                 0 16px 32px rgba(0,0,0,0.07), 
                 0 32px 64px rgba(0,0,0,0.07);
 }
-
-.footer {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-flow: column nowrap;
-  background: rgb(20, 20, 20);
-  color: rgb(158, 158, 158);
-  width: 100%;
-}
-.footer p:hover {
-  color:orange;
-}
-.footer p {
-  padding-bottom: 12px;
-}
-.heart{color:#e25555;}
-.netlify {
-  background-color: white;
-  border-radius: 10px;
-  padding:12px;
-  margin-bottom: 12px;
-}
 .nohand:hover {
   cursor: default;
 }
-.netlifyLogo {
-  display: flex;
-  justify-content: center;
 
-  height:25px;
-}
-
-.socials i {
-  padding:20px;
-  color:gray;
-}
-.socials i:hover {
-  padding:20px;
-  color:orange;
-}
 .logo {
   margin-right: auto;
   object-fit: contain;

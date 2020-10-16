@@ -4,7 +4,7 @@ Clayton Loneman's Production Development Site
 
 ## Available Scripts
 
-In the project directory, you can run:
+In this project directory, you can run:
 
 ### `npm start`
 
