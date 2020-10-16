@@ -98,9 +98,6 @@ padding: 0;
     margin: 16px auto; 
     padding: 0px 0px;
   }
-  .header {
-    font-size: 1rem;
-  }
   .logo {
     margin:auto;
     object-fit: contain;

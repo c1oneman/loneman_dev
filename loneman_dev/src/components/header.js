@@ -10,6 +10,9 @@ const HeaderStyled = styled.div`
   justify-content: center;
   text-align: center;
   font-size: 1.3rem;
+  @media (max-width: 480px) {
+    font-size: 1rem;
+  }
 `
 const Header = (props) => {
 
