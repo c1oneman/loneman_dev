@@ -5,6 +5,8 @@ import Header from './components/header'
 import Portfolio from './components/portfolio'
 import Footer from './components/footer'
 import Skills from './components/skills'
+import Contact from './components/Contact'
+
 import { Route, Switch } from 'react-router-dom'
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Nav />
       <Switch>
         <Route path='/contact'>
+          <Contact/>
         </Route>
         <Route path='/projects'>
           <Portfolio />

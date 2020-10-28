@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-
 import styled from 'styled-components';
 const HeaderStyled = styled.div`
   display:flex;
@@ -13,7 +12,7 @@ const HeaderStyled = styled.div`
   @media (max-width: 480px) {
     font-size: 1rem;
   }
-`
+  `  
 const Header = (props) => {
 
   return (
