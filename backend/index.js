@@ -1,5 +1,6 @@
 // 1- DEPENDENCIES
-const express = require('express')
+require('dotenv').config();
+const express = require('express');
 const data = require('./data');
 
 const portfolio = data.portfolio;
@@ -10,7 +11,7 @@ const app = express()
 app.use(express.json())
 
 // 3- PORT NUMBER
-const PORT = 5000
+const PORT = process.env.PORT;
 
 // 5- ENDPOINTS
 
