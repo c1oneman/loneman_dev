@@ -81,14 +81,14 @@ const skills = [
     color: "#3d3f85",
     url:'/',
     icon: 'fab fa-vuejs ',
-    time: '< 1yr',
+    time: '< 1y',
   },
   {
     name: "Testing",
     color: "#3d3f85",
     url:'/',
     icon: 'fas fa-bug',
-    time: '< 1yr',
+    time: '< 1y',
   }
 ];
 

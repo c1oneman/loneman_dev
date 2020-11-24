@@ -8,6 +8,7 @@ import Skills from './components/skills'
 import Contact from './components/Contact'
 
 import { Route, Switch } from 'react-router-dom'
+import { HeaderStyled } from './styled-components/structure'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Portfolio />
         </Route>
         <Route path='/skillset'>
+          <HeaderStyled><h1>My skillset includes, but is not limited to:</h1></HeaderStyled>
           <Skills />
         </Route>
         <Route path='/'>
