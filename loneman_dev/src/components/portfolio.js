@@ -1,16 +1,8 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import '../App.css';
 import Card from './card.js'
-const ContentView = styled.div`
-display: flex;
-flex-wrap: wrap;
-max-width: 1600px;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;
-margin-bottom:1%;
-`
+
+import { ContentView } from '../styled-components/structure'
 
 function Portfolio() {
   const portfolioData = require('../data/portfolioData');

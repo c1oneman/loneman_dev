@@ -1,11 +1,13 @@
 import React from 'react';
 import '../App.css';
+import { HeaderStyled } from '../styled-components/structure';
+
 
 function Contact() {
   return (
-    <div className='App'>
-      <h1>Let's chat</h1>
-    </div>
+    <HeaderStyled>
+      <h1>Yes! Let's talk business..</h1>
+    </HeaderStyled>
   );
 }
 
