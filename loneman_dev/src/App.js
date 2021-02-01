@@ -6,7 +6,7 @@ import Portfolio from './components/portfolio'
 import Footer from './components/footer'
 import Skills from './components/skills'
 import Contact from './components/Contact'
-
+import RetroHitCounter from './components/HitCounter'
 import { Route, Switch } from 'react-router-dom'
 import { HeaderStyled } from './styled-components/structure'
 
@@ -30,11 +30,13 @@ function App() {
           <Header />
           <Portfolio />
           <Skills />
+          <RetroHitCounter
+              slug={'homepage'} />
         </Route>
       </Switch>
       </div>
 
-    <Footer/>
+      <Footer />
     </div>
   );
 }
