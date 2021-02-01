@@ -36,6 +36,7 @@ exports.handler = async (event) => {
         })
     );
     return {
+        headers: { "Access-Control-Allow-Origin": "*" },
         statusCode: 200,
         body: JSON.stringify({
             hits: document.data.hits,
