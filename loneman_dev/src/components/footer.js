@@ -2,6 +2,7 @@
 import React from 'react';
 import '../App.css';
 import { FooterStyled } from '../styled-components/structure'
+import RetroHitCounter from './HitCounter'
 
 const Footer = (props) => {
 
@@ -11,7 +12,7 @@ const Footer = (props) => {
             <div className='socials'>
                 <a href='https://twitter.com/c1oneman' target='_blank' rel="noopener noreferrer"><i className={`fab fa-twitter fa-1x`} /></a>
                 <a href='https://www.linkedin.com/in/clayton-loneman-7788771b7/' target='_blank' rel="noopener noreferrer"><i className="fab fa-linkedin fa-1x" /></a>
-                <a href='https://www.github.com/c1oneman' target='_blank' rel="noopener noreferrer"><i class="fab fa-github fa-1x" /></a>
+                <a href='https://www.github.com/c1oneman' target='_blank' rel="noopener noreferrer"><i className="fab fa-github fa-1x" /></a>
 
             </div>
             <a href='https://netlify.com' target='_blank' rel="noopener noreferrer">
@@ -20,7 +21,9 @@ const Footer = (props) => {
                 </div>
             </a>
 
-            <p className='nohand'>Made with <span class="heart">❤</span> in Nebraska</p>
+            <p className='nohand'>Made with <span className="heart">❤</span> in Nebraska</p>
+            <RetroHitCounter
+                slug={'dev'} />
         </FooterStyled>
     );
 }

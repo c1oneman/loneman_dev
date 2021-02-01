@@ -20,6 +20,7 @@ function HitCounter({ slug }) {
   if (typeof hits === "undefined") {
     return null;
   }
-  return <RetroHitCounter hits={hits} />;
+  return <RetroHitCounter hits={hits} withBorder={false}
+    withGlow={false} segmentActiveColor="#c5c5c5" backgroundColor="#000" segmentInactiveColor="#242424" />;
 }
 export default HitCounter;
