@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterStyled = styled.div`
     display: flex;
-        justify-content: center;
+    justify-content: center;
     -webkit-box-align: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -29,7 +29,7 @@ export const FooterStyled = styled.div`
     height:25px;
     }
     .m1 {
-      margin-bottom:12px;
+      margin-bottom:16px;
     }
     .socials i {
     padding:20px;

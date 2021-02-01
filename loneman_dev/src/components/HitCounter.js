@@ -1,7 +1,7 @@
 import React from "react";
 import RetroHitCounter from "react-retro-hit-counter";
 function HitCounter({ slug }) {
-  const [hits, setHits] = React.useState(undefined);
+  const [hits, setHits] = React.useState(0);
   React.useEffect(() => {
     // Don't count hits on localhost
     if (process.env.NODE_ENV !== "production") {
