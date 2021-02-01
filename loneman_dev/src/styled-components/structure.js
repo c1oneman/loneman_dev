@@ -48,9 +48,11 @@ export const FooterStyled = styled.div`
     padding:5px;
     color:gray;
     }
-    .hitBox i:hover {
-    padding:5px;
+    .hitBox:hover {
+      i {
+         padding:5px;
     color:white;
+      }
     }
 `
 export const ContentView = styled.div`
