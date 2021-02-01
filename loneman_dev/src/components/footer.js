@@ -1,47 +1,8 @@
 //rgb(32, 35, 41)
 import React from 'react';
 import '../App.css';
+import { FooterStyled } from '../styled-components/structure'
 
-import styled from 'styled-components';
-const FooterStyled = styled.div`
-    display: flex;
-    webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-flow: column nowrap;
-    background: rgb(20, 20, 20);
-    color: rgb(158, 158, 158);
-    width: 100%;
-    p:hover {
-        color:orange;
-    }
-    p {
-        padding-bottom: 12px;
-    }
-    .heart{color:#e25555;}
-    .netlify {
-    background-color: white;
-    border-radius: 10px;
-        padding:12px;
-    margin-bottom: 12px;
-    }
-    .netlifyLogo {
-    display: flex;
-    justify-content: center;
-
-    height:25px;
-    }
-
-    .socials i {
-    padding:20px;
-    color:gray;
-    }
-    .socials i:hover {
-    padding:20px;
-    color:orange;
-    }
-`
 const Footer = (props) => {
 
     return (
