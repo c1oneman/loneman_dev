@@ -28,7 +28,9 @@ export const FooterStyled = styled.div`
 
     height:25px;
     }
-
+    .m1 {
+      margin-bottom:12px;
+    }
     .socials i {
     padding:20px;
     color:gray;
@@ -59,7 +61,7 @@ export const HeaderStyled = styled.div`
   @media (max-width: 480px) {
     font-size: 1rem;
   }
-  `  
+  `
 
 
 export const NavBar = styled.div`

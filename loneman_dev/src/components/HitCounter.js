@@ -21,7 +21,7 @@ function HitCounter({ slug }) {
     return null;
   }
   return <RetroHitCounter hits={hits} withBorder={false}
-    withGlow={false} segmentActiveColor="#c5c5c5" backgroundColor="#242424" segmentInactiveColor="#000" size={20} segmentThickness={2}
+    withGlow={false} segmentActiveColor="#c5c5c5" backgroundColor="#141414" segmentInactiveColor="#000" size={20} segmentThickness={2}
     segmentSpacing={0.25} />;
 }
 export default HitCounter;

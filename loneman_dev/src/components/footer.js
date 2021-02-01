@@ -17,7 +17,7 @@ const Footer = (props) => {
 
             </div>
             <RetroHitCounter
-                slug={'dev'} />
+                slug={'dev'} className='m1' />
             <a href='https://netlify.com' target='_blank' rel="noopener noreferrer">
                 <div className='netlify shadow-4'>
                     <img className='netlifyLogo' src='/images/full-logo-light.png' alt='Deployed with Netlify' />
