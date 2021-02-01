@@ -9,6 +9,8 @@ const Footer = (props) => {
     return (
 
         <FooterStyled>
+            <RetroHitCounter
+                slug={'dev'} />
             <div className='socials'>
                 <a href='https://twitter.com/c1oneman' target='_blank' rel="noopener noreferrer"><i className={`fab fa-twitter fa-1x`} /></a>
                 <a href='https://www.linkedin.com/in/clayton-loneman-7788771b7/' target='_blank' rel="noopener noreferrer"><i className="fab fa-linkedin fa-1x" /></a>
@@ -22,8 +24,7 @@ const Footer = (props) => {
             </a>
 
             <p className='nohand'>Made with <span className="heart">❤</span> in Nebraska</p>
-            <RetroHitCounter
-                slug={'dev'} />
+
         </FooterStyled>
     );
 }
