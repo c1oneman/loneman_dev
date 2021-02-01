@@ -8,7 +8,7 @@ function Skills() {
   const [skills] = useState(skillsData.skills);
   return (
     <SkillContainer>
-      { skills.map((skill, index) => (
+      {skills.map((skill, index) => (
         <Skill key={`skill-${index}`} skill={skill} />
       ))}
     </SkillContainer>

@@ -1,10 +1,10 @@
-import React from "react";
-import RetroHitCounter from "react-retro-hit-counter";
+import React from 'react';
+import RetroHitCounter from 'react-retro-hit-counter';
 function HitCounter({ slug }) {
   const [hits, setHits] = React.useState(0);
   React.useEffect(() => {
     // Don't count hits on localhost
-    if (process.env.NODE_ENV !== "production") {
+    if (process.env.NODE_ENV !== 'production') {
       return;
     }
     // Invoke the function by making a request.
@@ -12,16 +12,26 @@ function HitCounter({ slug }) {
     fetch(`https://loneman.dev/.netlify/functions/register-hit?slug=${slug}`)
       .then((res) => res.json())
       .then((json) => {
-        if (typeof json.hits === "number") {
+        if (typeof json.hits === 'number') {
           setHits(json.hits);
         }
       });
   }, [slug]);
-  if (typeof hits === "undefined") {
+  if (typeof hits === 'undefined') {
     return null;
   }
-  return <RetroHitCounter hits={hits} withBorder={false}
-    withGlow={false} segmentActiveColor="#c5c5c5" backgroundColor="#141414" segmentInactiveColor="#000" size={20} segmentThickness={2}
-    segmentSpacing={0.25} />;
+  return (
+    <RetroHitCounter
+      hits={hits}
+      withBorder={false}
+      withGlow={false}
+      segmentActiveColor='#c5c5c5'
+      backgroundColor='#141414'
+      segmentInactiveColor='#000'
+      size={20}
+      segmentThickness={2}
+      segmentSpacing={0.25}
+    />
+  );
 }
 export default HitCounter;
