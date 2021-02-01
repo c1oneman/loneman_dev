@@ -9,16 +9,7 @@ function HitCounter({ slug }) {
     }
     // Invoke the function by making a request.
     // Update the URL to match the format of your platform.
-    fetch(`https://loneman.dev/.netlify/functions/register-hit?slug=${slug}`, {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Methods': '*',
-        'Access-Control-Max-Age': '2592000',
-        'Access-Control-Allow-Credentials': 'true',
-        "Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers"
-      }
-    })
+    fetch(`https://loneman.dev/.netlify/functions/register-hit?slug=${slug}`)
       .then((res) => res.json())
       .then((json) => {
         if (typeof json.hits === "number") {
