@@ -15,7 +15,8 @@ const Footer = (props) => {
                 <a href='https://www.linkedin.com/in/clayton-loneman-7788771b7/' target='_blank' rel="noopener noreferrer"><i className="fab fa-linkedin fa-1x" /></a>
                 <a href='https://www.github.com/c1oneman' target='_blank' rel="noopener noreferrer"><i className="fab fa-github fa-1x" /></a>
             </div>
-            <div className='m1' >
+            <div className='hitBox m1' >
+                <i className="fas fa-eye" />
                 <RetroHitCounter
                     slug={'dev'} />
             </div>

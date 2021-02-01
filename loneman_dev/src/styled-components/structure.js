@@ -19,13 +19,12 @@ export const FooterStyled = styled.div`
     .netlify {
     background-color: white;
     border-radius: 10px;
-        padding:12px;
+    padding:6px 12px;
     margin-bottom: 12px;
     }
     .netlifyLogo {
     display: flex;
     justify-content: center;
-
     height:25px;
     }
     .m1 {
@@ -38,6 +37,20 @@ export const FooterStyled = styled.div`
     .socials i:hover {
     padding:20px;
     color:orange;
+    }
+    .hitBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:25px;
+    }
+    .hitBox i {
+    padding:5px;
+    color:gray;
+    }
+    .hitBox i:hover {
+    padding:5px;
+    color:white;
     }
 `
 export const ContentView = styled.div`
