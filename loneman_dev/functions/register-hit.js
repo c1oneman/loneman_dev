@@ -36,7 +36,14 @@ exports.handler = async (event) => {
         })
     );
     return {
-        headers: { "Access-Control-Allow-Origin": "*" },
+        headers: {
+            'Access-Control-Allow-Origin': 'chrome-extension://naniojgmdmkbiohhclebmfemiioanclc',
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Methods': '*',
+            'Access-Control-Max-Age': '2592000',
+            'Access-Control-Allow-Credentials': 'true',
+        },
         statusCode: 200,
         body: JSON.stringify({
             hits: document.data.hits,
