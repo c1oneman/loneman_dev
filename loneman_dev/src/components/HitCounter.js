@@ -8,10 +8,7 @@ function HitCounter({ slug }) {
       return;
     }
     var hasHitRegistered = localStorage.getItem("hasHitRegistered");
-    if (localStorage.getItem("hasHitRegistered")) {
-      return;
-    } else {
-    }
+
     // Invoke the function by making a request.
     // Update the URL to match the format of your platform.
     fetch(
