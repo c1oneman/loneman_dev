@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { HeaderStyled } from '../styled-components/structure';
 
+
 function Contact() {
   return (
     <HeaderStyled>

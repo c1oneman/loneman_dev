@@ -1,17 +1,15 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { render } from 'react-dom'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 render(
   // Wrap the <App /> in a provider
-  <Router>
-    <App />
-  </Router>,
-  document.querySelector('#root')
-);
+  <Router><App /></Router>
+  , document.querySelector('#root')
+)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
