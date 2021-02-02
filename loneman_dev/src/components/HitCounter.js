@@ -13,7 +13,7 @@ function HitCounter({ slug }) {
     // Update the URL to match the format of your platform.
     fetch(
       `https://loneman.dev/.netlify/functions/${
-        hasHitRegistered ? "register" : "get"
+        hasHitRegistered ? "get" : "register"
       }-hit?slug=${slug}`
     )
       .then((res) => res.json())
