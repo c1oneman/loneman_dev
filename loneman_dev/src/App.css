@@ -15,6 +15,9 @@ button {
   color: #24252a;
   text-decoration: none;
 }
+.circle {
+  border-radius: 50%;
+}
 .content-wrap {
   flex: 1;
 }
@@ -43,6 +46,11 @@ button {
 }
 .bold {
   font-weight: 700;
+}
+
+.lightSection {
+  background-color: #eff1f5;
+  width: 100%;
 }
 
 .darkSection {

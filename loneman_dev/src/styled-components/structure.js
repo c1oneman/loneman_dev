@@ -69,6 +69,7 @@ export const ContentView = styled.div`
 
 export const HeaderStyled = styled.div`
   display: flex;
+  flex-direction:column;
   align-items: center;
   width: 100%;
   padding: 5% 0px;

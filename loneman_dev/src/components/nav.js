@@ -9,7 +9,6 @@ const Nav = (props) => {
       <Link className="logo" to="/">
         <img className="logo" src="/images/profile.png" alt="Clayton Loneman" />
       </Link>
-
       <nav>
         <ul className="nav__links">
           <li>

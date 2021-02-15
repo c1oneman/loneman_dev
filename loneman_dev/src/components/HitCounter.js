@@ -7,7 +7,8 @@ function HitCounter({ slug }) {
     if (process.env.NODE_ENV !== "production") {
       return;
     }
-    var hasHitRegistered = localStorage.getItem("hasHitRegistered");
+    // Don't count hits if user already hit
+    var hasHitRegistered = localStorage.getItem("hasHitRegistered") || false;
 
     // Invoke the function by making a request.
     // Update the URL to match the format of your platform.
