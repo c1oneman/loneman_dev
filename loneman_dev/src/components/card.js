@@ -8,7 +8,9 @@ const Character = (props) => {
         <img className="cover" src={project.img} alt={project.name} />
       </div>
       <div className="nohand right">
-        <h1 className="hand">{project.name}</h1>
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <h1 className="hand">{project.name}</h1>
+        </a>
         <h2>What is it?</h2>
         <p>{project.description}</p>
         <h2>Technologies Used</h2>

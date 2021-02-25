@@ -35,7 +35,11 @@ const Footer = (props) => {
         <RetroHitCounter slug={"dev"} />
       </div>
 
-      <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://app.netlify.com/sites/admiring-nightingale-1f05a7/deploys"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="netlify shadow-4">
           <img
             className="netlifyLogo"

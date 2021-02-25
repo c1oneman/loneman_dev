@@ -2,26 +2,42 @@ const portfolioData = [
   {
     name: "loneman.dev",
     id: 1,
-    url: "/",
+    url: "https://loneman.dev",
     description: "My personal website for my development.",
     technologies: ["JS", "React", "UI/UX", "Gitflow", "Rest API"],
-    img: "/images/lonemandev.png",
+    img: "/images/loneman_dev.png",
   },
   {
     name: "Sailboard",
-    url: "#",
+    url: "https://apps.apple.com/us/app/sailboard/id1503958464",
     id: 2,
-    description: "iOS Sales Tracking App for local business.",
+    description: "Sales tracking app for businesses.",
     technologies: ["Swift", "UIKit", "Firebase", "Rest API"],
     img: "/images/sailboard.jpg",
   },
   {
     name: "Weather Against Humans",
-    url: "#",
-    id: 2,
-    description: "iOS Weather App",
+    url:
+      "https://apps.apple.com/us/app/weather-against-humans/id1448120627#:~:text=Weather%20Against%20Humans%20is%20a,the%20weather%20forecast%20for%20today.&text=Requires%20one%2Dtime%20local%20location%20access%20to%20retrieve%20weather.",
+    id: 3,
+    description: "An honest iOS weather app.",
     technologies: ["Swift", "UIKit", "Firebase", "Rest API"],
     img: "/images/weather.png",
+  },
+  {
+    name: "itsAlmo.st Clone",
+    url: "https://almostcl.one",
+    id: 4,
+    description:
+      "Clone of the popular universal timer app, with short sharable links.",
+    technologies: [
+      "MongoDB",
+      "React",
+      "ContextAPI",
+      "SCSS",
+      "Lambda Functions",
+    ],
+    img: "/images/almostclone.jpg",
   },
 ];
 const skills = [

@@ -52,6 +52,12 @@ export const CardContainer = styled.div`
     overflow: hidden;
     white-space: nowrap;
   }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #c5c5c5;
+  }
   h1 {
     margin: 3px 0px;
     font-size: 1.5rem;
