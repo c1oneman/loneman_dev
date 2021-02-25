@@ -4,14 +4,22 @@ const portfolioData = [
     id: 1,
     url: "https://loneman.dev",
     description: "My personal website for my development.",
-    technologies: ["JS", "React", "UI/UX", "Gitflow", "Rest API"],
+    technologies: [
+      "JS",
+      "React",
+      "UI/UX Design",
+      "Gitfl",
+      "Rest API",
+      "Serverless Functions",
+      "MongoDB"
+    ],
     img: "/images/loneman_dev.png",
   },
   {
     name: "Sailboard",
     url: "https://apps.apple.com/us/app/sailboard/id1503958464",
     id: 2,
-    description: "Sales tracking app for businesses.",
+    description: "Sales tracking app for businesses, this is from before I got into web development.",
     technologies: ["Swift", "UIKit", "Firebase", "Rest API"],
     img: "/images/sailboard.jpg",
   },
@@ -21,7 +29,7 @@ const portfolioData = [
       "https://apps.apple.com/us/app/weather-against-humans/id1448120627#:~:text=Weather%20Against%20Humans%20is%20a,the%20weather%20forecast%20for%20today.&text=Requires%20one%2Dtime%20local%20location%20access%20to%20retrieve%20weather.",
     id: 3,
     description: "An honest iOS weather app.",
-    technologies: ["Swift", "UIKit", "Firebase", "Rest API"],
+    technologies: ["Swift", "Firebase", "Rest API", "MySQL", "Express", "JWT"],
     img: "/images/weather.png",
   },
   {
@@ -35,14 +43,14 @@ const portfolioData = [
       "React",
       "ContextAPI",
       "SCSS",
-      "Lambda Functions",
+      "Serverless Functions",
     ],
     img: "/images/almostclone.jpg",
   },
 ];
 const skills = [
   {
-    name: "React",
+    name: "ReactJS",
     color: "#4af9ff",
     url: "/",
     icon: "fab fa-react",
@@ -63,10 +71,10 @@ const skills = [
     time: "> 1y",
   },
   {
-    name: "HTML",
+    name: "ExpressJS",
     color: "#ff5729",
     url: "/",
-    icon: "fab fa-html5 ",
+    icon: "fas fa-server ",
     time: "3y",
   },
   {
@@ -84,10 +92,24 @@ const skills = [
     time: "< 1y",
   },
   {
-    name: "Testing",
+    name: "CI Testing",
     color: "#3d3f85",
     url: "/",
     icon: "fas fa-bug",
+    time: "< 1y",
+  },
+  {
+    name: "MongoDB",
+    color: "#3d3f85",
+    url: "/",
+    icon: "fas fa-database",
+    time: "< 1y",
+  },
+  {
+    name: "Scrum Certified",
+    color: "#3d3f85",
+    url: "/",
+    icon: "fas fa-tasks",
     time: "< 1y",
   },
 ];

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   display: flex;
-  width: 30%;
+  width: 45%;
   min-width: 400px;
   background-color: #3c3e44;
   border-radius: 0.5rem;
@@ -16,6 +16,7 @@ export const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+    padding-top: 8px;
   }
   .left img {
     width: 100%;
