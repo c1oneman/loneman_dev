@@ -2,10 +2,16 @@ import React from "react";
 import { CardContainer } from "../styled-components/portfolio";
 const Character = (props) => {
   const project = props.project;
+  var divStyle = {
+    backgroundImage: "url(" + project.img + ")",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+  console.log(divStyle)
   return (
     <CardContainer className="shadow-4">
-      <div className="left">
-        <img className="cover" src={project.img} alt={project.name} />
+      <div style={divStyle} className="left">
+        <></>
       </div>
       <div className="nohand right">
         <a href={project.url} target="_blank" rel="noopener noreferrer">

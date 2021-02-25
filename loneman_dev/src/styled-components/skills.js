@@ -46,7 +46,7 @@ export const SkillDiv = styled.div`
     font-size: 1.2rem;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 680px) {
     width: 46%;
     min-width: 0;
     margin: 2%;

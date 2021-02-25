@@ -9,6 +9,7 @@ export const CardContainer = styled.div`
   margin: 0.75rem;
   .left {
     width: 33%;
+    border-radius: 0.5rem 0 0 0.5rem;
   }
   .right {
     width: 66%;
@@ -21,7 +22,7 @@ export const CardContainer = styled.div`
   .left img {
     width: 100%;
     height: 100%;
-    border-radius: 0.5rem 0 0 0.5rem;
+
     object-fit: cover;
   }
   .techSection {
@@ -69,7 +70,7 @@ export const CardContainer = styled.div`
     font-weight: 500;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 680px) {
     width: 100%;
     min-width: 0;
   }
