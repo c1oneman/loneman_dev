@@ -11,17 +11,18 @@ const portfolioData = [
       "Gitfl",
       "Rest API",
       "Serverless Functions",
-      "MongoDB"
+      "MongoDB",
     ],
-    img: "/images/loneman_dev.png",
+    img: "https://i.ibb.co/KFxkV3D/loneman-dev.jpg",
   },
   {
     name: "Sailboard",
     url: "https://apps.apple.com/us/app/sailboard/id1503958464",
     id: 2,
-    description: "Sales tracking app for businesses, this is from before I got into web development.",
+    description:
+      "Sales tracking app for businesses, this is from before I got into web development.",
     technologies: ["Swift", "UIKit", "Firebase", "Rest API"],
-    img: "/images/sailboard.jpg",
+    img: "https://i.ibb.co/CmpS5Xf/sailboard.jpg",
   },
   {
     name: "Weather Against Humans",
@@ -30,7 +31,7 @@ const portfolioData = [
     id: 3,
     description: "An honest iOS weather app.",
     technologies: ["Swift", "Firebase", "Rest API", "MySQL", "Express", "JWT"],
-    img: "/images/weather.png",
+    img: "https://i.ibb.co/xMtVPbL/weather.png",
   },
   {
     name: "itsAlmo.st Clone",
@@ -45,7 +46,7 @@ const portfolioData = [
       "SCSS",
       "Serverless Functions",
     ],
-    img: "/images/almostclone.jpg",
+    img: "https://i.ibb.co/HgPpnVj/almostclone.jpg",
   },
 ];
 const skills = [
