@@ -107,6 +107,13 @@ const skills = [
     time: "1y",
   },
   {
+    name: "SQL",
+    color: "#3d3f85",
+    url: "/",
+    icon: "fas fa-database",
+    time: "1y",
+  },
+  {
     name: "Scrum Certified",
     color: "#3d3f85",
     url: "/",
