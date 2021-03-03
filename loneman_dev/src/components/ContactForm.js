@@ -24,7 +24,15 @@ const ContactForm = (props) => {
       onSubmit={(values, { setSubmitting }) => {
         setSubmitting(false);
         console.log(values);
-        fetch("https://loneman.dev/.netlify/functions/send-contact-email")
+        fetch("https://loneman.dev/.netlify/functions/send-contact-email", {
+          method: 'POST',
+          mode: 'cors',
+          cache: 'no-cache',
+          credentials = 'same-origin',
+          headers {
+            'Content-Type'
+          }
+        })
           .then((response) => response.json())
           .then((data) => console.log(data));
       }}
