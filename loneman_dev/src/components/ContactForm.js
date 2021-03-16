@@ -28,8 +28,8 @@ const ContactForm = (props) => {
           method: 'POST',
           mode: 'cors',
           cache: 'no-cache',
-          credentials = 'same-origin',
-          headers {
+          credentials: 'same-origin',
+          headers: {
             'Content-Type'
           }
         })
