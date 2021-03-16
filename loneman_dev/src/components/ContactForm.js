@@ -27,11 +27,7 @@ const ContactForm = (props) => {
         fetch("https://loneman.dev/.netlify/functions/send-contact-email", {
           method: 'POST',
           mode: 'cors',
-          cache: 'no-cache',
-          credentials: 'same-origin',
-          headers: {
-            'Content-Type'
-          }
+         
         })
           .then((response) => response.json())
           .then((data) => console.log(data));
