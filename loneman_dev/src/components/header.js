@@ -4,9 +4,11 @@ import { HeaderStyled } from "../styled-components/structure";
 
 const Header = (props) => {
   return (
+
     <HeaderStyled>
       <h1>Clayton Loneman's Development Page</h1>
-    </HeaderStyled>
+      </HeaderStyled>
+
   );
 };
 
