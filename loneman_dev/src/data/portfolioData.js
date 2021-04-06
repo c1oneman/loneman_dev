@@ -8,7 +8,7 @@ const portfolioData = [
       "JS",
       "React",
       "UI/UX Design",
-      "Gitfl",
+      "Git flow",
       "Rest API",
       "Serverless Functions",
       "MongoDB",
