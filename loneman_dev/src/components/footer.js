@@ -36,7 +36,7 @@ const Footer = (props) => {
       </div>
 
       <a
-        href="https://app.netlify.com/sites/admiring-nightingale-1f05a7/deploys"
+        href="https://app.netlify.com/sites/lonemandev/deploys"
         target="_blank"
         rel="noopener noreferrer"
       >
