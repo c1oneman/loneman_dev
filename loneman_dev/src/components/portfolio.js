@@ -1,14 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 import Card from "./card.js";
 
 import { ContentView } from "../styled-components/structure";
 
-function Portfolio() {
+const Portfolio = (props) => {
   const portfolioData = require("../data/portfolioData");
-  const [showAll, changeShowAll] = useState(true);
+  const [showAll, changeShowAll] = useState(false);
   const perPage = 3;
   const [projects] = useState(portfolioData.portfolioData);
+
+  useEffect(() => {
+    changeShowAll(!props.showAll);
+    // eslint-disable-next-line
+  }, [props.showAll]);
 
   const toggleShowAll = () => {
     changeShowAll(!showAll);
@@ -45,6 +50,6 @@ function Portfolio() {
       </ContentView>
     </div>
   );
-}
+};
 
 export default Portfolio;

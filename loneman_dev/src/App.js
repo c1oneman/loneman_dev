@@ -6,7 +6,7 @@ import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 import Skills from "./components/skills";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume"
+import Resume from "./components/Resume";
 import { Route, Switch } from "react-router-dom";
 import { HeaderStyled } from "./styled-components/structure";
 
@@ -23,7 +23,7 @@ function App() {
             <HeaderStyled>
               <h1>Featured projects</h1>
             </HeaderStyled>
-            <Portfolio />
+            <Portfolio showAll={true} />
           </Route>
           <Route path="/skillset">
             <HeaderStyled>
@@ -39,7 +39,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <Portfolio />
+            <Portfolio showAll={false} />
             <Skills />
           </Route>
         </Switch>
