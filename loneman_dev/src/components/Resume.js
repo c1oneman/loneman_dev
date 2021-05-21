@@ -9,13 +9,13 @@ function Resume() {
   return (
     <div>
       <ContentView>
-        <Document file="/documents/Clayton Loneman Resume.pdf">
+        <Document file="/documents/Clayton Loneman Resume 2021.pdf">
           <Page pageNumber={1} />
         </Document>
       </ContentView>
       <ContentView>
         <a
-          href="/documents/Clayton Loneman Resume.pdf"
+          href="/documents/Clayton Loneman Resume 2021.pdf"
           className="button cta mg-l"
           download
         >
