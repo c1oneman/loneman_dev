@@ -1,20 +1,14 @@
 const portfolioData = [
   {
-    name: "loneman.dev",
-    id: 1,
-    url: "https://loneman.dev",
-    description: "My personal website for my development.",
-    technologies: [
-      "JS",
-      "React",
-      "UI/UX Design",
-      "Git flow",
-      "Rest API",
-      "Serverless Functions",
-      "MongoDB",
-    ],
-    img: "https://i.ibb.co/KFxkV3D/loneman-dev.jpg",
+    name: "itsAlmo.st Clone",
+    url: "https://almostcl.one",
+    id: 4,
+    description:
+      "Clone of the popular universal timer app, with short sharable links.",
+    technologies: ["MongoDB", "React", "ContextAPI", "SCSS", "Express"],
+    img: "https://i.ibb.co/HgPpnVj/almostclone.jpg",
   },
+
   {
     name: "Sailboard",
     url: "https://apps.apple.com/us/app/sailboard/id1503958464",
@@ -26,27 +20,26 @@ const portfolioData = [
   },
   {
     name: "Weather Against Humans",
-    url:
-      "https://apps.apple.com/us/app/weather-against-humans/id1448120627#:~:text=Weather%20Against%20Humans%20is%20a,the%20weather%20forecast%20for%20today.&text=Requires%20one%2Dtime%20local%20location%20access%20to%20retrieve%20weather.",
+    url: "https://apps.apple.com/us/app/weather-against-humans/id1448120627#:~:text=Weather%20Against%20Humans%20is%20a,the%20weather%20forecast%20for%20today.&text=Requires%20one%2Dtime%20local%20location%20access%20to%20retrieve%20weather.",
     id: 3,
     description: "An honest iOS weather app.",
     technologies: ["Swift", "Firebase", "Rest API", "MySQL", "Express", "JWT"],
     img: "https://i.ibb.co/xMtVPbL/weather.png",
   },
   {
-    name: "itsAlmo.st Clone",
-    url: "https://almostcl.one",
-    id: 4,
-    description:
-      "Clone of the popular universal timer app, with short sharable links.",
+    name: "loneman.dev",
+    id: 1,
+    url: "https://loneman.dev",
+    description: "My personal website for my development.",
     technologies: [
-      "MongoDB",
       "React",
-      "ContextAPI",
-      "SCSS",
+      "UI/UX Design",
+      "Git",
+      "Rest API",
       "Serverless Functions",
+      "MongoDB",
     ],
-    img: "https://i.ibb.co/HgPpnVj/almostclone.jpg",
+    img: "https://i.ibb.co/KFxkV3D/loneman-dev.jpg",
   },
 ];
 const skills = [
