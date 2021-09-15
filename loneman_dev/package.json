@@ -19,7 +19,7 @@
     "react-scripts": "3.4.3",
     "react-wavify": "^1.5.2",
     "source-map-explorer": "^2.5.2",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.3.1",
     "styled-theming": "^2.2.0"
   },
   "scripts": {
