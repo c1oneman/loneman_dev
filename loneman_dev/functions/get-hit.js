@@ -29,7 +29,7 @@ exports.handler = async (event) => {
   );
   return {
     headers: {
-      "Access-Control-Allow-Origin": "https://www.loneman.dev",
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "application/json",
       "Access-Control-Allow-Methods": "*",
       "Access-Control-Allow-Credentials": "true",
