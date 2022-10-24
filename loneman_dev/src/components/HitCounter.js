@@ -13,17 +13,10 @@ function HitCounter({ slug }) {
     // Invoke the function by making a request.
     // Update the URL to match the format of your platform.
     // Cors headers are required for this to work.
-
-    const headers = {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-    };
-
     fetch(
       `https://loneman.dev/.netlify/functions/${
         hasHitRegistered ? "get" : "register"
-      }-hit?slug=${slug}`,
+      }-hit?slug=${slug}/`,
       { headers }
     )
       .then((res) => res.json())
